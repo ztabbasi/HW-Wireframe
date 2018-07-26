@@ -17,59 +17,61 @@
     background: #ccc;
   }
   
-  section {
+  #container {
+    display:flex;
   }
   
-  #left {
-    width:33.3%;
-    background-color:darkgray;
+  #nav {
     padding: 20px;
-    float:left;
+    margin-top: 20px;
+    color: #333;
+    background: #ccc;
+    box-sizing: border-box;
+    text-align: center;
   }
   
-  #middle {
-    width:33.3%;
-    background-color:gray;
-    padding: 20px;
-    float:left;
-  }
-  
-  #right {
-    width:33.3%;
-    background-color:darkgray;
-    padding: 20px;
-    float:left;
-    margin-bottom:20px;
-  }
-  
+
   #full {
     clear:both;
     background-color:#eee;
     margin-bottom:20px;
     margin-top:20px;
+    margin-right:20px;
     height:300px;
+    width:50%;
+    float:left;
   }
   
-  #division {
-    background-color:blue;
-    width:100%;
+  #inside1, #inside2 {
+    background-color:grey;
+    width:50%;
     padding: 20px;
-    margin-top:100px;
-  
+    margin-top:20px;
   }
   
-  aside {
+  #article {
     width:300px;
     height:200px;
     background-color:#fff;
     margin-top:30px;
     margin-left:20px;
-    float:left;
     padding:20px;
-    
-  }
   
+  }
+
+  #aside {
+    padding: 20px;
+    color: #333;
+    box-sizing: border-box;
+    background-color:grey;
+    margin-top:20px;
+    height:300px;
+    width:50%;
+    float:left;
+  }
+
   footer {
+    clear:both;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
