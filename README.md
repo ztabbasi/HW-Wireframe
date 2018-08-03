@@ -1,15 +1,38 @@
-# HW-Wireframe
-HW Wireframe
+Wireframe
+Learning html, css, floats, positioning, box model
 
-This is a basic page to learn HTML and CSS.  This shows the general flow of how most web pages look like.
-with a header, middle, an aside and footer.  Below is a screen shot of the page:
+Link to deployed site
+hw-wireframe
 
-
+Images
 ![image](Easier-Layout.png)
 
-This is the most common layout that is used by a majority of sites.
+wireframe
 
-Author : Zia Abbasi
-Date : July 26,2018
-First Homework Assignment
+Technology used
+HTML
+CSS
 
+Code Snippets
+
+ <div id="container"> 
+    <section id="full">
+        section
+      <div id="article">
+        article 
+            <div id="inside1">
+             h1,h2,h3
+            </div>
+            <div id="inside2">
+              p
+            </div> 
+      </div>
+    </section>
+    <div id="aside">
+        aside
+      </div> 
+  </div>
+  
+Author
+
+Zia Abbasi
